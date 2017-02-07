@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SnakeEX2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div id="overlay">
+			Your final Score: <span id="final_score"></span>
+			<br>
+			<a onclick="window.location.reload()" href="">Click to play again</a>
+		</div>
+		<canvas id="canvas" width="600" height="450">
+			Sorry! Your browser doesn't support canvas.
+		</canvas>
+		<div id="stats">
+			<div id="score"></div>
+			<div id="high_score"></div>
+			<button onclick="resetScore()" id="reset_score">Reset High Score</button>
+		</div>
+
+	</div>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
